@@ -100,16 +100,16 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground text-sm">
-                  Calle Tecnología, 123<br />28001 Madrid, España
+                  Palma de Mallorca<br />Islas Baleares, España
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Smartphone className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground text-sm">+34 900 123 456</span>
+                <span className="text-muted-foreground text-sm">+34 971 XXX XXX</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground text-sm">info@ata-tech.es</span>
+                <span className="text-muted-foreground text-sm">contacto@ata-tech.es</span>
               </li>
               <li className="flex items-start gap-2">
                 <Clock className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />

@@ -44,17 +44,17 @@ export default function Contacto() {
     {
       icon: MapPin,
       title: "Dirección",
-      content: "Calle Tecnología, 123\n28001 Madrid, España"
+      content: "Palma de Mallorca\nIslas Baleares, España"
     },
     {
       icon: Phone,
       title: "Teléfono",
-      content: "+34 900 123 456"
+      content: "+34 971 XXX XXX"
     },
     {
       icon: Mail,
       title: "Email",
-      content: "info@ata-tech.es"
+      content: "contacto@ata-tech.es"
     },
     {
       icon: Clock,
@@ -192,8 +192,8 @@ export default function Contacto() {
                 <div>
                   <h3 className="font-semibold mb-2">Cómo Llegar</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Estamos ubicados en el centro de Madrid, cerca de la estación de metro Sol. 
-                    Fácil acceso en transporte público y parking disponible en la zona.
+                    Estamos ubicados en Palma de Mallorca. Fácil acceso en transporte público 
+                    y parking disponible en la zona.
                   </p>
                 </div>
                 <div>

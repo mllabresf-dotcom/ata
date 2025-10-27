@@ -154,10 +154,10 @@ export default function ServiciosDetail() {
             Nuestro equipo está disponible para asesorarte y resolver todas tus preguntas
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" data-testid="button-call">
-              Llamar: +34 900 123 456
+            <Button size="lg" onClick={() => window.location.href = '/contacto'} data-testid="button-call">
+              Contactar
             </Button>
-            <Button size="lg" variant="outline" data-testid="button-contact">
+            <Button size="lg" variant="outline" onClick={() => window.location.href = '/contacto'} data-testid="button-contact">
               Formulario de Contacto
             </Button>
           </div>

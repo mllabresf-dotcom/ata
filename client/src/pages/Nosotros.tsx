@@ -35,7 +35,7 @@ export default function Nosotros() {
               Sobre <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">ATA</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Asistencia Técnica Avanzada - Líderes en reparación de dispositivos electrónicos desde 2008
+              Asistencia Técnica Avanzada - Tu centro tecnológico de confianza en Mallorca
             </p>
           </div>
         </div>
@@ -47,17 +47,18 @@ export default function Nosotros() {
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">Nuestra Historia</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                ATA nació en 2008 con una visión clara: proporcionar servicios de reparación de dispositivos 
-                electrónicos de la más alta calidad, combinando experiencia técnica con un servicio al cliente excepcional.
+                ATA es tu centro tecnológico en Mallorca, especializado en reparación profesional de dispositivos 
+                electrónicos. Nuestro objetivo es proporcionar servicios de la más alta calidad, combinando 
+                experiencia técnica con un servicio al cliente excepcional.
               </p>
               <p>
-                A lo largo de más de 15 años, hemos reparado más de 5,000 dispositivos, desde smartphones y tablets 
-                hasta portátiles y ordenadores de sobremesa. Nuestra reputación se basa en la confianza, la transparencia 
-                y los resultados excepcionales.
+                Ofrecemos servicios de reparación para smartphones, tablets, portátiles y ordenadores de sobremesa. 
+                Además, próximamente dispondremos de venta de equipos informáticos completos: portátiles, cajas de 
+                ordenador, ratones, teclados y periféricos de calidad.
               </p>
               <p>
-                Hoy en día, somos el centro de referencia para reparaciones tecnológicas en Madrid, con un equipo 
-                de técnicos certificados que dominan las últimas tecnologías y técnicas de reparación.
+                Ubicados en Palma de Mallorca, trabajamos con las últimas tecnologías y técnicas de reparación 
+                para garantizar que tu dispositivo vuelva a funcionar como nuevo.
               </p>
             </div>
           </div>
@@ -95,21 +96,21 @@ export default function Nosotros() {
         <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-8 sm:p-12 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">¿Por Qué Elegirnos?</h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Más de 15 años de experiencia, técnicos certificados, garantía en todas las reparaciones 
-            y un compromiso inquebrantable con la satisfacción del cliente.
+            Técnicos especializados, garantía en todas las reparaciones y un compromiso 
+            inquebrantable con la satisfacción del cliente en Mallorca.
           </p>
           <div className="grid sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div>
-              <div className="text-5xl font-bold text-primary mb-2">5000+</div>
-              <div className="text-muted-foreground">Dispositivos Reparados</div>
+              <div className="text-5xl font-bold text-primary mb-2">100%</div>
+              <div className="text-muted-foreground">Profesionalidad</div>
             </div>
             <div>
-              <div className="text-5xl font-bold text-primary mb-2">98%</div>
-              <div className="text-muted-foreground">Satisfacción Cliente</div>
+              <div className="text-5xl font-bold text-primary mb-2">24-48h</div>
+              <div className="text-muted-foreground">Tiempo Reparación</div>
             </div>
             <div>
-              <div className="text-5xl font-bold text-primary mb-2">15+</div>
-              <div className="text-muted-foreground">Años Experiencia</div>
+              <div className="text-5xl font-bold text-primary mb-2">Mallorca</div>
+              <div className="text-muted-foreground">Ubicación</div>
             </div>
           </div>
         </div>

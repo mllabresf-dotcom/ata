@@ -1,8 +1,11 @@
 import { Smartphone, Laptop, Tablet, Monitor, Wrench, Zap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useLocation } from "wouter";
 
 export default function ServicesGrid() {
+  const [, setLocation] = useLocation();
+
   const services = [
     {
       icon: Smartphone,
@@ -57,11 +60,21 @@ export default function ServicesGrid() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service, index) => {
             const Icon = service.icon;
+            const serviceUrls = [
+              '/servicios/moviles',
+              '/servicios/portatiles',
+              '/servicios/tablets',
+              '/servicios/ordenadores',
+              '/contacto',
+              '/contacto'
+            ];
+            
             return (
               <Card 
                 key={index} 
                 className="hover-elevate active-elevate-2 transition-all cursor-pointer overflow-visible"
                 data-testid={`card-service-${index}`}
+                onClick={() => setLocation(serviceUrls[index])}
               >
                 <CardContent className="p-6">
                   <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-4">

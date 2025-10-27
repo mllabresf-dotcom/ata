@@ -34,8 +34,8 @@ export default function Hero() {
           </h1>
           
           <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
-            Especialistas en reparación de móviles, portátiles, tablets y ordenadores. 
-            Diagnóstico gratuito, técnicos certificados y garantía en todas nuestras reparaciones.
+            Especialistas en reparación de móviles, portátiles, tablets y ordenadores en Mallorca. 
+            También venta de equipos informáticos. Diagnóstico gratuito y garantía en reparaciones.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">

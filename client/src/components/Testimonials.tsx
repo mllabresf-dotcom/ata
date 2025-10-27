@@ -72,18 +72,18 @@ export default function Testimonials() {
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-8 p-6 rounded-lg bg-muted/50">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary">5000+</div>
-              <div className="text-sm text-muted-foreground">Dispositivos reparados</div>
+              <div className="text-4xl font-bold text-primary">Rápido</div>
+              <div className="text-sm text-muted-foreground">Servicio 24-48h</div>
             </div>
             <div className="h-12 w-px bg-border" />
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary">98%</div>
-              <div className="text-sm text-muted-foreground">Satisfacción</div>
+              <div className="text-4xl font-bold text-primary">100%</div>
+              <div className="text-sm text-muted-foreground">Profesional</div>
             </div>
             <div className="h-12 w-px bg-border" />
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary">15+</div>
-              <div className="text-sm text-muted-foreground">Años experiencia</div>
+              <div className="text-4xl font-bold text-primary">Mallorca</div>
+              <div className="text-sm text-muted-foreground">Ubicación</div>
             </div>
           </div>
         </div>

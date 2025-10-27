@@ -11,10 +11,12 @@ import {
 } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Calculator } from "lucide-react";
+import { useLocation } from "wouter";
 
 export default function QuoteCalculator() {
   const [deviceType, setDeviceType] = useState("");
   const [issues, setIssues] = useState<string[]>([]);
+  const [, setLocation] = useLocation();
 
   const deviceTypes = [
     { value: "movil", label: "Móvil" },
@@ -119,7 +121,11 @@ export default function QuoteCalculator() {
                   <p className="text-sm text-muted-foreground mb-4">
                     * Precio aproximado. El presupuesto final se confirmará tras el diagnóstico.
                   </p>
-                  <Button className="w-full font-semibold" data-testid="button-request-quote">
+                  <Button 
+                    className="w-full font-semibold" 
+                    data-testid="button-request-quote"
+                    onClick={() => setLocation('/contacto')}
+                  >
                     Solicitar Presupuesto Oficial
                   </Button>
                 </div>
