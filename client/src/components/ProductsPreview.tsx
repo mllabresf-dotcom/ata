@@ -1,7 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Package, Info } from "lucide-react";
+import { useLocation } from "wouter";
 
 export default function ProductsPreview() {
+  const [, setLocation] = useLocation();
+  
   const products = [
     "Portátiles",
     "Cajas de ordenador",
@@ -38,12 +42,20 @@ export default function ProductsPreview() {
                 ))}
               </div>
 
-              <div className="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-accent/10 text-accent-foreground">
+              <div className="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-accent/10 text-accent-foreground mb-6">
                 <Info className="h-5 w-5 flex-shrink-0" />
                 <p className="text-sm">
                   Equipos completos y periféricos. No vendemos componentes internos.
                 </p>
               </div>
+
+              <Button 
+                size="lg" 
+                onClick={() => setLocation('/productos')}
+                data-testid="button-view-products"
+              >
+                Ver Catálogo Completo
+              </Button>
             </CardContent>
           </Card>
         </div>

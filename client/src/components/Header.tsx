@@ -72,6 +72,15 @@ export default function Header() {
                 )}
               </div>
 
+              <Link href="/productos" data-testid="link-nav-products">
+                <Button
+                  variant={location === "/productos" ? "secondary" : "ghost"}
+                  className="font-medium"
+                >
+                  Productos
+                </Button>
+              </Link>
+
               <Link href="/nosotros" data-testid="link-nav-about">
                 <Button
                   variant={location === "/nosotros" ? "secondary" : "ghost"}
@@ -142,6 +151,12 @@ export default function Header() {
                 );
               })}
             </div>
+
+            <Link href="/productos" data-testid="link-mobile-products">
+              <Button variant={location === "/productos" ? "secondary" : "ghost"} className="w-full justify-start">
+                Productos
+              </Button>
+            </Link>
 
             <Link href="/nosotros" data-testid="link-mobile-about">
               <Button variant={location === "/nosotros" ? "secondary" : "ghost"} className="w-full justify-start">

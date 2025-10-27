@@ -68,6 +68,13 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Empresa</h3>
             <ul className="space-y-2">
               <li>
+                <Link href="/productos" data-testid="link-footer-products">
+                  <span className="text-muted-foreground hover:text-foreground cursor-pointer transition-colors">
+                    Productos
+                  </span>
+                </Link>
+              </li>
+              <li>
                 <Link href="/nosotros" data-testid="link-footer-about">
                   <span className="text-muted-foreground hover:text-foreground cursor-pointer transition-colors">
                     Sobre Nosotros

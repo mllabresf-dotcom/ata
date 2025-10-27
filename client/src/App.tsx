@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Home from "@/pages/Home";
+import Productos from "@/pages/Productos";
 import Nosotros from "@/pages/Nosotros";
 import Contacto from "@/pages/Contacto";
 import ServiciosDetail from "@/pages/ServiciosDetail";
@@ -16,6 +17,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/productos" component={Productos} />
       <Route path="/nosotros" component={Nosotros} />
       <Route path="/contacto" component={Contacto} />
       <Route path="/servicios/:tipo" component={ServiciosDetail} />
