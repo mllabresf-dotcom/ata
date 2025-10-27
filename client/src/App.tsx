@@ -11,6 +11,8 @@ import Productos from "@/pages/Productos";
 import Nosotros from "@/pages/Nosotros";
 import Contacto from "@/pages/Contacto";
 import ServiciosDetail from "@/pages/ServiciosDetail";
+import Garantias from "@/pages/Garantias";
+import Privacidad from "@/pages/Privacidad";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -21,6 +23,8 @@ function Router() {
       <Route path="/nosotros" component={Nosotros} />
       <Route path="/contacto" component={Contacto} />
       <Route path="/servicios/:tipo" component={ServiciosDetail} />
+      <Route path="/garantias" component={Garantias} />
+      <Route path="/privacidad" component={Privacidad} />
       <Route component={NotFound} />
     </Switch>
   );

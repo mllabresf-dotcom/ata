@@ -89,14 +89,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <span className="text-muted-foreground hover:text-foreground cursor-pointer transition-colors">
-                  Garantías
-                </span>
+                <Link href="/garantias" data-testid="link-footer-garantias">
+                  <span className="text-muted-foreground hover:text-foreground cursor-pointer transition-colors">
+                    Garantías
+                  </span>
+                </Link>
               </li>
               <li>
-                <span className="text-muted-foreground hover:text-foreground cursor-pointer transition-colors">
-                  Política de Privacidad
-                </span>
+                <Link href="/privacidad" data-testid="link-footer-privacidad">
+                  <span className="text-muted-foreground hover:text-foreground cursor-pointer transition-colors">
+                    Política de Privacidad
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>
